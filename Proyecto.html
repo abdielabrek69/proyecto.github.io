@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Logo -->
+    <header class="container text-center py-3">
+        <img src="./img/logo.png" alt="Mi Logotipo" class="img-fluid" width="300">
+        <h1>Mi Portafolio INKTONER</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <section id="inicio">
+    <nav class="navbar navbar-expand-lg mi-navbar">
+        <div class="container-fluid">
+            <a class="navbar-link" href="#inicio">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#bio">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#especialidades">Especialidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </section>
+
+    <!-- Biografía -->
+  <!-- Biografía -->
+  <section id="bio" class="py-5">
+    <div class="container">
+        <h2>Biografía</h2>
+        <p>
+            INKTONER es una empresa con más de 10 años de experiencia, especializada en ofrecer soluciones
+            tecnológicas integrales para computadoras y redes. Nuestro enfoque está en proporcionar servicios
+            personalizados que garanticen el óptimo funcionamiento de los equipos informáticos.
+        </p>
+        <img src="./img/AD.jpg" alt="Foto de perfil" class="img-fluid rounded-circle" width="200">
+    </div>
+</section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="bg-light py-5">
+        <div class="container">
+            <h2>Especialidades</h2>
+            <p>Lenguajes de programación y desarrollo web:
+                PHP,HTML, CSS, JavaScript.
+
+                Frameworks y bibliotecas:
+                
+                Bootstrap. Bases de datos: MySQL
+             
+                Herramientas de diseño y prototipado:
+                
+                Figma, Adobe XD, Canva </p>
+            <ul>
+                <li>PHP,HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">
+                            
+                                Sistema de Verificación de Tickets con QR
+            
+                                Desarrollé un sistema para gestionar y verificar el estado de tickets mediante códigos QR. El sistema permite a los usuarios escanear el código con su dispositivo móvil para consultar información en tiempo real desde una base de datos central.
+                                Características principales:
+                                
+                                Diseño responsivo con Bootstrap.
+                                Generación y escaneo de códigos QR.
+                                Conexión a una base de datos para la actualización de estados.
+                                Tecnologías utilizadas:
+                                HTML, CSS, JavaScript, PHP, MySQL, API QR Code.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/proyecto2.webp" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">
+                                Aplicación de Calculadora para Android
+                             
+                                Creé una aplicación móvil básica para realizar operaciones matemáticas estándar.
+                                Este proyecto está orientado a aprender y aplicar conceptos de desarrollo de aplicaciones móviles.
+                                
+                                Características principales:
+                                Interfaz intuitiva y fácil de usar.
+                                Operaciones básicas: suma, resta, multiplicación y división.
+                                Implementación de validaciones para evitar errores en las entradas.
+                                Tecnologías utilizadas:
+                                Java, Android Studio.   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./img/proyecto3.jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">
+                                Portal Web de Portafolio Personal.
+                              
+                                Diseñé y desarrollé un sitio web personal para mostrar mi experiencia, habilidades y proyectos. El objetivo fue crear una plataforma profesional para compartir mi trabajo con clientes y empleadores potenciales.
+                                Características principales:
+                                
+                                Navegación dinámica con Bootstrap.
+                                Secciones de biografía, especialidades, proyectos y contacto.
+                                Integración con redes sociales y formulario de contacto funcional.
+                                Tecnologías utilizadas:
+                                HTML, CSS, Bootstrap, JavaScript, PHP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¡Contactame por medio de las siguientes opciones!</p>
+            <ul class="list-unstyled">
+                <li><a href="https://github.com/yohannrc" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li>Teléfono: 22 26 95 58 78</li>
+                <li>Email: abdiel.abrek@gmail.com</li>
+            </ul>
+
+            <section id="contacto">
+                <div class="container">
+                    <h3>Formulario de Contacto</h3>
+                    <form action="contacto.php" method="POST">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </section>
+            
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white py-1 text-center">
+        <p>INKTONER &copy; 2024 Todos los derechos reservados.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#inicio" class="text-white">Inicio</a></li>
+            <li class="list-inline-item"><a href="#contacto" class="text-white">Contacto</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS.js" defer></script>
+<link rel="stylesheet" href="CSS.css">
+</body>
+</html>
+
